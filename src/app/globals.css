@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap");
+@import "tailwindcss";
+
+/*
+  MEDAWA SHOWROOM — design tokens
+  Palette grounded in carved hardwood, raw canvas, clay and gold leaf —
+  not the generic cream/terracotta or near-black/neon defaults.
+*/
+:root {
+  --color-charcoal: #1c1410;       /* bark / deep backdrop */
+  --color-charcoal-soft: #2a201a;  /* raised surfaces on dark */
+  --color-parchment: #f2e9d8;      /* raw canvas / light surface */
+  --color-parchment-dim: #e8dcc4;  /* secondary light surface */
+  --color-sienna: #b5651d;         /* burnt clay — primary accent */
+  --color-sienna-deep: #8f4d15;    /* hover / pressed state */
+  --color-olive: #6b7f5e;          /* baobab leaf — secondary / live state */
+  --color-gold: #d4af37;           /* antique gold leaf — premium signal only */
+  --color-clay-red: #8b2e2e;       /* bid / urgency state */
+  --color-ink: #211a14;            /* body text on light */
+  --color-ink-soft: #5c5043;       /* secondary text on light */
+
+  --background: var(--color-parchment);
+  --foreground: var(--color-ink);
+}
+
+@theme inline {
+  --color-charcoal: var(--color-charcoal);
+  --color-charcoal-soft: var(--color-charcoal-soft);
+  --color-parchment: var(--color-parchment);
+  --color-parchment-dim: var(--color-parchment-dim);
+  --color-sienna: var(--color-sienna);
+  --color-sienna-deep: var(--color-sienna-deep);
+  --color-olive: var(--color-olive);
+  --color-gold: var(--color-gold);
+  --color-clay-red: var(--color-clay-red);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", "SF Mono", Menlo, Consolas, monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Museum-label rule: thin hairline used under artwork card metadata */
+.label-rule {
+  border-top: 1px solid color-mix(in srgb, var(--color-ink) 18%, transparent);
+}
+
+/* Respect reduced motion preferences everywhere */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Visible keyboard focus ring, consistent across the app */
+:focus-visible {
+  outline: 2px solid var(--color-sienna);
+  outline-offset: 2px;
+}
