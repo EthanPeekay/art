@@ -8,7 +8,7 @@ import "./globals.css";
 // defined in globals.css if the network request fails at runtime.
 
 export const metadata: Metadata = {
-  title: "Medawa Showroom — African Art & Sculpture",
+  title: "African Art Showroom — African Art & Sculpture",
   description:
     "A curated showroom for African sculpture and painting. Discover, follow, and collect work directly from the artists who make it.",
 };

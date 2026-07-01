@@ -32,7 +32,7 @@ export default async function HomePage() {
               of the person who made it.
             </h1>
             <p className="mt-6 max-w-md text-parchment/75">
-              Medawa Showroom connects collectors directly with sculptors and
+              African Art Showroom connects collectors directly with sculptors and
               painters working across the continent — with the story,
               provenance, and process behind every piece, not just a price tag.
             </p>
@@ -139,7 +139,7 @@ export default async function HomePage() {
 
       <footer className="border-t border-charcoal/10 px-6 py-10">
         <p className="font-mono text-[11px] uppercase tracking-[0.08em] text-ink-soft">
-          Medawa Showroom — built for the artists and collectors of African
+          African Art Showroom — built for the artists and collectors of African
           sculpture and painting.
         </p>
       </footer>

@@ -7,7 +7,7 @@ export default function LoginPage() {
     <div className="flex min-h-screen items-center justify-center bg-charcoal px-6 py-16">
       <div className="w-full max-w-md">
         <Link href="/" className="font-display text-2xl text-parchment">
-          Medawa <span className="text-sienna">Showroom</span>
+          African Art <span className="text-sienna">Showroom</span>
         </Link>
         <h1 className="mt-8 font-display text-3xl text-parchment">Welcome back</h1>
 
@@ -18,7 +18,7 @@ export default function LoginPage() {
         </div>
 
         <p className="mt-6 text-center text-sm text-parchment/60">
-          New to Medawa?{" "}
+          New to African Art Showroom?{" "}
           <Link href="/signup" className="text-gold hover:underline">
             Create an account
           </Link>

@@ -20,7 +20,7 @@ export async function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-charcoal/10 bg-parchment/95 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="font-display text-xl tracking-tight text-ink">
-          Medawa <span className="text-sienna">Showroom</span>
+          African Art <span className="text-sienna">Showroom</span>
         </Link>
 
         <nav className="hidden items-center gap-7 font-mono text-[12px] uppercase tracking-[0.08em] text-ink-soft md:flex">

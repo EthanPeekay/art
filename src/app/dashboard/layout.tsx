@@ -30,7 +30,7 @@ export default async function DashboardLayout({
       <header className="border-b border-charcoal/10 bg-charcoal">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <Link href="/" className="font-display text-lg text-parchment">
-            Medawa <span className="text-sienna">Studio</span>
+            African Art <span className="text-sienna">Studio</span>
           </Link>
           <div className="flex items-center gap-4">
             <Link

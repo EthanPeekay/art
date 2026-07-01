@@ -1,4 +1,4 @@
-# Medawa Showroom
+# African Art Showroom
 
 A dual-sided showroom and exhibition platform for African sculpture and painting — artists exhibit and sell directly, collectors browse, follow, bid, and buy.
 

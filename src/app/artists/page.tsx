@@ -15,7 +15,7 @@ export default async function ArtistsDirectoryPage() {
 
       <div className="mx-auto max-w-6xl px-6 py-12">
         <h1 className="font-display text-4xl text-ink">Artists</h1>
-        <p className="mt-2 text-ink-soft">{artists?.length ?? 0} artists exhibiting on Medawa.</p>
+        <p className="mt-2 text-ink-soft">{artists?.length ?? 0} artists exhibiting on African Art Showroom.</p>
 
         <div className="mt-10 grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4">
           {(artists ?? []).map((artist) => (

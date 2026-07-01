@@ -73,7 +73,7 @@ export function SignupForm() {
   if (submitted) {
     return (
       <div className="rounded-sm border border-olive/30 bg-olive/10 p-6 text-center">
-        <p className="font-display text-xl text-ink">Welcome to Medawa Showroom</p>
+        <p className="font-display text-xl text-ink">Welcome to African Art Showroom</p>
         <p className="mt-2 text-sm text-ink-soft">
           Check your email to confirm your account if required, then continue.
         </p>
